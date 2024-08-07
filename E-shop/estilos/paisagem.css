@@ -2,7 +2,5 @@
 
 html, body {
   background-image: url(../imagem/image-fundo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  background-position: left bottom;
 }

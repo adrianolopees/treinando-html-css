@@ -2,5 +2,5 @@
 
 html, body {
   background-image: url(../imagem/image-fundo.jpg);
-  
+  background-position: center bottom;
 }
