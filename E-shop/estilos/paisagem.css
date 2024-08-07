@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+html, body {
+  background-image: url(../imagem/image-fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
