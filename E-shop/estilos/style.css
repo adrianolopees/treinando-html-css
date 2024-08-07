@@ -15,6 +15,7 @@ html, body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  
 }
 
 header {
@@ -82,4 +83,7 @@ a:hover {
   cursor: pointer;
   text-align: right;
   margin-bottom: 300px;
+}
+div .deals:hover {
+  background-color: coral;
 }
