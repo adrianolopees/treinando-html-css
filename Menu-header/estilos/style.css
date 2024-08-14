@@ -14,7 +14,7 @@
   --cor5:#F2E9E9;
 }
 body {
-  height: 100vh;
+ 
   background-color: #040D0A;
   background-image: url(../imagem/foto-fundo.jpg);
   background-position: center center;
@@ -45,13 +45,12 @@ span#burguer:hover {
   color: var(--cor4);
 }
 ul {
- display: flex;
- list-style: none;
- gap: 9rem;
+  background-color: var(--cor3);
+  text-align: center;
 }
 
 a {
-  color: var(--cor4);
+  color: var(--cor5);
   font-size: 1.5rem;
   font-size: border;
   margin: auto;
@@ -59,13 +58,22 @@ a {
 }
 
 a:hover {
-  color: var(--cor5);
-  background-color: var(--cor3);
-  border-radius: 6px;
+  display: block;
+  color: var(--cor4);
+  background-color: var(--cor5);
+ 
 }
 
 h1 {
+  text-shadow: 2px 2px 2px var(--cor5);
   text-align: center;
   font-size: 6rem;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
