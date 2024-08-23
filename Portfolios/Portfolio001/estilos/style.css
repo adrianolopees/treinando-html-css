@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+ /*ESTILO GERAL */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 5%;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color:#FFB400;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.btn-contato button:hover {
+  box-shadow: 0px 0px 8px #ffb300;
+  transform: scale(1.05);
+  
+}
+
+
+/*ESTILO DO CABEÇALHO*/
+header {
+  padding: 40px 4%;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #6b6b6b;
+  text-decoration: none;
+  display: inline-block;
+  transition: .2s;
+}
+
+header a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+
+/* ESTILO DO TOPO DO SITE*/
+
+section.top-do-site {
+  padding: 40px 4%;
+}
+
+section.top-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.top-do-site h1 {
+  color: #fff;
+  font-size: 42px;
+  line-height: 40px;
+}
+
+.top-do-site .txt-top-site h1 span {
+  color: #FFB400;
+}
+
+.top-do-site .txt-top-site p{
+  color: #fff;
+  margin: 40px 0px;
+}
+
+.top-do-site .img-top-site img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+  0%{
+    top: 0;
+  }
+  100%{
+    top: 30px;
+  }
+}
