@@ -33,7 +33,7 @@ body {
   transition: .2s;
 }
 
-.btn-contato button:hover {
+button:hover {
   box-shadow: 0px 0px 8px #ffb300;
   transform: scale(1.05);
   
@@ -153,4 +153,43 @@ section.especialidades .flex {
 .especialidades .especialidades-box h3 {
   font-size: 30px;
   margin: 15px 0px ;
+}
+
+/*ESTILOS DO SOBRE MIM*/
+
+section.sobre-mim {
+  color: white;
+  padding: 80px 4%;
+}
+
+section.sobre-mim .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre-mim .txt-sobre h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  line-height: 40px;
+}
+.sobre-mim .txt-sobre span {
+  color: #FFB400;
+  display: inline-block;
+}
+
+.sobre-mim .txt-sobre p{
+  margin: 20px 0px;
+  text-align: justify;
+}
+
+.sobre-mim .txt-sobre .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #FFB400;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0px 5px;
+  transition: .2s;
 }
