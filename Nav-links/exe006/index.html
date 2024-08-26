@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav-links</title>
+
+  <style>
+
+    /* ESTILOS GERAIS*/
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .interface {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    /* ESTILO HEADER */
+
+    header {
+      padding: 40px  4%;
+      background-color: teal;
+    }
+
+    header > .interface {
+      display: flex;
+      flex-flow: row-reverse nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+    .interface .menu ul {
+      list-style-type: none;
+     }
+
+    .interface .menu li{
+      display: inline-block;
+      padding: 0 50px;
+      
+    }
+
+    .interface .menu li a{
+      text-decoration: none;
+      color: black;
+      font-weight: 200;
+    }
+
+    .interface .logo {
+  
+      font-weight: 800;
+      background-color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+   
+  </style>
+</head>
+<body>
+  <header>
+      <div class="interface">
+          <div class="logo">
+            LOGO
+          </div><!--logo-->
+
+          <nav class="menu">
+            <ul>
+              <li class="nav-links"><a href="#">Sobre</a></li>
+              <li class="nav-links"><a href="#">Projetos</a></li>
+              <li class="nav-links"><a href="#">Fotos</a></li>
+            </ul>
+          </nav><!--menu-->
+
+          <button class="btn-contato">
+            Contato
+          </button>
+
+      </div><!--interface-->
+
+  </header>
+</body>
+</html>
