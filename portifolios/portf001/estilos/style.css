@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
- /*ESTILO GERAL */
+/*ESTILO GERAL */
 * {
   margin: 0px;
   padding: 0px;
@@ -26,17 +26,17 @@ body {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
-  background-color:#FFB400;
+  background-color: #ffb400;
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-button:hover, form .btn-enviar input[type=submit]:hover {
+button:hover,
+form .btn-enviar input[type="submit"]:hover {
   box-shadow: 0px 0px 8px #ffb300;
   transform: scale(1.05);
-  
 }
 
 h2.titulo {
@@ -46,7 +46,7 @@ h2.titulo {
 }
 
 h2.titulo span {
-  color: #FFB400;
+  color: #ffb400;
 }
 
 /*ESTILO DO CABEÇALHO*/
@@ -64,7 +64,7 @@ header a {
   color: #6b6b6b;
   text-decoration: none;
   display: inline-block;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 header a:hover {
@@ -80,7 +80,6 @@ header nav ul li {
   display: inline-block;
   padding: 0px 40px;
 }
-
 
 /* ESTILO DO TOPO DO SITE*/
 
@@ -101,10 +100,10 @@ section.top-do-site .flex {
 }
 
 .top-do-site .txt-top-site h1 span {
-  color: #FFB400;
+  color: #ffb400;
 }
 
-.top-do-site .txt-top-site p{
+.top-do-site .txt-top-site p {
   color: #fff;
   margin: 40px 0px;
 }
@@ -115,10 +114,10 @@ section.top-do-site .flex {
 }
 
 @keyframes flutuar {
-  0%{
+  0% {
     top: 0;
   }
-  100%{
+  100% {
     top: 30px;
   }
 }
@@ -137,7 +136,7 @@ section.especialidades .flex {
   padding: 40px;
   margin-top: 45px;
   border-radius: 20px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .especialidades .especialidades-box:hover {
@@ -147,12 +146,12 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
   font-size: 70px;
-  color: #FFB400;
+  color: #ffb400;
 }
 
 .especialidades .especialidades-box h3 {
   font-size: 30px;
-  margin: 15px 0px ;
+  margin: 15px 0px;
 }
 
 /*ESTILOS DO SOBRE MIM*/
@@ -173,11 +172,11 @@ section.sobre-mim .flex {
   line-height: 40px;
 }
 .sobre-mim .txt-sobre span {
-  color: #FFB400;
+  color: #ffb400;
   display: inline-block;
 }
 
-.sobre-mim .txt-sobre p{
+.sobre-mim .txt-sobre p {
   margin: 20px 0px;
   text-align: justify;
 }
@@ -187,11 +186,11 @@ section.sobre-mim .flex {
   height: 60px;
   border-radius: 50%;
   border: none;
-  background-color: #FFB400;
+  background-color: #ffb400;
   font-size: 25px;
   cursor: pointer;
   margin: 0px 5px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 /*ESTILO PORTFÓLIO*/
@@ -235,7 +234,7 @@ section.portfolio .flex {
   font-weight: 600;
   color: #fff;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .overlay:hover {
@@ -249,7 +248,7 @@ section.formulario {
 }
 
 form {
-  max-width: 500px ;
+  max-width: 500px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -258,7 +257,8 @@ form {
   margin-top: 40px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   background-color: rgb(43, 43, 43);
   border: none;
@@ -268,8 +268,9 @@ form input, form textarea {
   color: #fff;
 }
 
-form input::placeholder, form textarea::placeholder {
-  color: #FFB400;
+form input::placeholder,
+form textarea::placeholder {
+  color: #ffb400;
 }
 
 form textarea {
@@ -280,10 +281,10 @@ form .btn-enviar {
   margin-top: 20px;
   text-align: center;
 }
-form .btn-enviar input[type=submit] {
+form .btn-enviar input[type="submit"] {
   width: 120px;
-  background-color: #FFB400;
+  background-color: #ffb400;
   color: black;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
 }
