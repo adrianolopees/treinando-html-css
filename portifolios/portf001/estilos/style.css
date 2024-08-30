@@ -166,11 +166,6 @@ section.sobre-mim .flex {
   gap: 60px;
 }
 
-.sobre-mim .txt-sobre h2 {
-  font-size: 40px;
-  margin-bottom: 30px;
-  line-height: 40px;
-}
 .sobre-mim .txt-sobre span {
   color: #ffb400;
   display: inline-block;
@@ -215,6 +210,7 @@ section.portfolio .flex {
   cursor: pointer;
   position: relative;
 }
+
 .img-projeto:hover {
   background-position: 100% 100%;
 }
@@ -268,11 +264,6 @@ form textarea {
   color: #fff;
 }
 
-form input::placeholder,
-form textarea::placeholder {
-  color: #ffb400;
-}
-
 form textarea {
   resize: none;
 }
@@ -317,4 +308,102 @@ footer .line-footer p i {
 footer .line-footer a {
   color: #fff;
   padding: 0 8px;
+}
+
+/* VERSÃO MOBILE*/
+
+@media screen and (max-width: 1119px) {
+  /* CLASSES GERAIS*/
+  .flex {
+    flex-flow: column-reverse;
+    gap: 40px;
+  }
+
+  h2.titulo {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  /* CABEÇALHO */
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+
+  /* TOPO DO SITE */
+  section.top-do-site .flex {
+    gap: 50px;
+  }
+
+  section.top-do-site {
+    padding: 20px 8%;
+  }
+
+  .top-do-site .img-top-site img {
+    width: 100%;
+  }
+
+  .top-do-site h1 {
+    text-align: center;
+    font-size: 35px;
+    line-height: 29px;
+  }
+
+  .top-do-site .txt-top-site p {
+    margin: 30px 8px;
+    font-size: 1.2em;
+    line-height: 24px;
+  }
+
+  /* ESPECIALIDADES*/
+  section.especialidades {
+    padding: 40px 8%;
+  }
+
+  section.especialidades .flex {
+    gap: 10px;
+  }
+
+  /* SOBRE */
+  section.sobre-mim {
+    padding: 50px 8%;
+  }
+  .foto-sobre {
+    width: 100%;
+  }
+
+  .btn-social {
+    text-align: center;
+  }
+
+  /* PORTFÓLIO */
+  section.portfolio {
+    padding: 80px 8%;
+    box-shadow: none;
+  }
+
+  section.portfolio .flex {
+    gap: 50px;
+  }
+
+  .img-projeto {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  /* ESTILO DO FORMULÁRIO DE CONTATO*/
+
+  section.formulario {
+    padding: 50px 8%;
+  }
+
+  /* RODAPÉ */
+  footer .flex {
+    flex-direction: column
+  }
+
+  footer .line-footer {
+    text-align: center;
+  }
 }
