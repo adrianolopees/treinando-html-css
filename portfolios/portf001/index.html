@@ -19,6 +19,8 @@
     <!-- FIM BOOTSTRAP ICONS-->
     <title>Portifólio 01</title>
     <link rel="stylesheet" href="estilos/style.css" />
+
+    <script src="menu.js" defer></script>
   </head>
   <body>
     <header>
@@ -39,14 +41,36 @@
           </ul>
         </nav>
         <!--Menu-desktop-->
-
         <div class="btn-contato">
           <a href="#">
             <button>Contato</button>
           </a>
         </div>
         <!--btn-contato-->
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
+        <!--btn-abrir-menu-->
       </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Especialidades</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- menu-bobile -->
+      <div class="overlay-menu" id="overlay-menu"></div>
+      <!--overlay-menu-->
       <!--Interface-->
     </header>
 
@@ -55,10 +79,10 @@
         <div class="interface">
           <div class="flex">
             <div class="txt-top-site">
-            <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Delectus vel, doloremque sequi esse corporis voluptatem deserunt
+              <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus vel, doloremque sequi esse corporis voluptatem deserunt
                 aspernatur atque ut veritatis recusandae exercitationem iure
                 illum, dicta neque et vitae pariatur dolor!
               </p>
@@ -138,7 +162,9 @@
             <!--img-sobre"-->
 
             <div class="txt-sobre">
-              <h2 class="titulo">MUITO PRAZER, <span>SOU ADRIANO MÉRA.</span></h2>
+              <h2 class="titulo">
+                MUITO PRAZER, <span>SOU ADRIANO MÉRA.</span>
+              </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
                 quas quibusdam dignissimos ad veniam nobis aliquid veritatis cum
@@ -249,21 +275,37 @@
         <div class="line-footer">
           <div class="flex">
             <div class="log-footer">
-              <img src="imagens/logo1.png" alt="Logo" width="125px">
-            </div><!--log-footer-->
+              <img src="imagens/logo1.png" alt="Logo" width="125px" />
+            </div>
+            <!--log-footer-->
             <div class="btn-social">
-              <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-              <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-              <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-            </div><!--btn-social-->
-          </div><!--flex-->
-        </div><!--line-footer-->
+              <a href="#"
+                ><button><i class="bi bi-instagram"></i></button
+              ></a>
+              <a href="#"
+                ><button><i class="bi bi-youtube"></i></button
+              ></a>
+              <a href="#"
+                ><button><i class="bi bi-linkedin"></i></button
+              ></a>
+            </div>
+            <!--btn-social-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--line-footer-->
 
         <div class="line-footer borda">
-        <p><i class="bi bi-envelope-plus"></i><a href="mailto:adrianoklopes13@gmail.com">adrianoklopes13@gmail.com</a></p>
-        
-        </div><!--line-footer-->
-      </div><!--interface-->
+          <p>
+            <i class="bi bi-envelope-plus"></i
+            ><a href="mailto:adrianoklopes13@gmail.com"
+              >adrianoklopes13@gmail.com</a
+            >
+          </p>
+        </div>
+        <!--line-footer-->
+      </div>
+      <!--interface-->
     </footer>
   </body>
 </html>
