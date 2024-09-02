@@ -5,42 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adriano Méra</title>
     <link rel="stylesheet" href="estilos/style.css" />
-    <!--GOOGLE FONTS-->
+    <!--GOOGLE FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <linkh ref="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap"rel="stylesheet"/>
-    <!--FIM GOOGLE FONTS-->
-    <script src="jscript.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet"/>
+    <!-- FIM GOOGLE FONT-->
   </head>
   <body>
     <header>
       <div class="interface">
         <div class="flex">
           <div class="logo">
-            <a href="#">LOGO</a>
+            <a href="#">
+              <img src="imagens/logo2.png"alt="Logo" width="250px" /></a>
           </div>
           <!--logo-->
 
-          <div id="menu">
-            <div class="menu-bar" onclick="menuOnClick()">
-              <div id="bar1" class="bar"></div>
-              <div id="bar2" class="bar"></div>
-              <div id="bar3" class="bar"></div>
-            </div><!--menu-bar-->
-            <nav class="menu-mobile" id="nav">
-              <ul>
-                <li>Sobre</li>
-                <li>Musicas</li>
-                <li>Show's</li>
-              </ul>
-            </nav><!--menu-mobile-->
-          </div><!--menu-->
+          <nav class="menu-desktop">
+            <ul>
+              <li><a href="#">Musicas</a></li>
+              <li><a href="#">Vídeos</a></li>
+              <li><a href="#">Repertório</a></li>
+              <li><a href="#">Fotos</a></li>
+            </ul>
+          </nav>
+          <!--menu-desktop-->
 
+          <div class="btn-contato">
+            <a href="#"><button>Contato</button></a>
+          </div>
+          <!--btn-contato-->
+        </div>
+        <!--flex-->
+      </div>
+      <!--interface-->
+    </header>
 
-          <div class="menu-bg" id="menu-bg"></div>
+    <section class="topo-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo">
+            <h1 class="titulo">TRANSFORMANDO EMOÇÕES <br>EM MELODIAS <span>.</span></h1>
+            <p>A música é uma arte que transcende palavras, uma forma de comunicação universal que toca o coração e a alma. Ela é uma expressão de quem somos e do que sentimos, espero que aqui eu possa mostrar um pouco do que há em meu coração pra vocês!</p>
+
+            <a href="#"><button>ESCUTE AGORA!</button></a>
+          </div><!--txt-topo-->
+
+          <div class="img-topo">
+            <img src="imagens/image.png" alt="adriano" width="550px">
+          </div><!--img-topo-->
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--topo-site-->
+
+    <section class="experiencias">
+      <div class="interface">
+        <h2>MINHAS <span>EXPERIÊNCIAS.</span></h2>
+        <div class="flex">
+
+          <div class="exp"><h3>Internacional</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus accusantium debitis vel tempore similique, sapiente odio minus velit mollitia suscipit accusamus obcaecati culpa facere, quae nostrum neque ratione nesciunt.</p></div>
+          
+          <div class="exp"><h3>Bares & Pubs</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus accusantium debitis vel tempore similique, sapiente odio minus velit mollitia suscipit accusamus obcaecati culpa facere, quae nostrum neque ratione nesciunt.</p>
+          </div>
+          
+          <div class="exp"><h3>Eventos</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus accusantium debitis vel tempore similique, sapiente odio minus velit mollitia suscipit accusamus obcaecati culpa facere, quae nostrum neque ratione nesciunt.</p>
+          </div>
+          
 
         </div><!--flex-->
       </div><!--interface-->
-    </header>
+    </section><!--experiencias-->
   </body>
 </html>
