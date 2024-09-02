@@ -21,6 +21,17 @@ body {
   background-color: var(--cor1);
 }
 
+h2 {
+  color: var(--cor2);
+  font-size: 2.3rem;
+  text-align: center;
+  margin:60px 0px 70px;
+}
+
+h2 span {
+  color: var(--cor5);
+}
+
 .interface {
   max-width: 1280px;
   margin: 0 auto;
@@ -48,6 +59,9 @@ button:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
+
+
+
 
 /* ESTILO CABEÇALHO */
 header {
@@ -78,6 +92,8 @@ header .menu-desktop a {
   color: var(--cor3);
   transform: scale(1.05);
 }
+
+
 
 
 
@@ -115,7 +131,6 @@ section.topo-site .flex {
   
 }
 
-
 .topo-site .img-topo img {
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
@@ -130,21 +145,13 @@ section.topo-site .flex {
   }
 }
 
+
+
+
 /* ESTILO EXPERIÊNCIAS */
 
 section.experiencias {
   padding: 80px 11%;
-}
-
-section.experiencias h2 {
-  color: var(--cor2);
-  font-size: 2.3rem;
-  text-align: center;
-  margin:80px 0px 70px;
-}
-
-.experiencias h2 span {
-  color: var(--cor5);
 }
 
 section.experiencias .flex {
@@ -155,18 +162,153 @@ section.experiencias .flex {
   border-radius: 20px;
   box-shadow: 0px 0px 20px #6baa7659;
   padding: 50px ;
+  transition: 0.2s ;
 }
 
 .experiencias .exp:hover{
   background-color: #6baa7660;
+  transform: scale(1.05);
 }
 
 .experiencias .exp h3 {
-  text-align: center;
+  display: inline;
   padding: 20px;
   font-size: 20px;
 }
 
 .experiencias .exp p {
  font-size: 17px;
+}
+
+.exp i {
+  font-size: 30px;
+  color: #46704d;
+}
+
+
+
+
+/* ESTILO SOBRE */
+section.sobre {
+  background-color: var(--cor2);
+  color: var(--cor1);
+  padding: 80px 11%;
+}
+
+section.sobre .flex {
+  gap: 80px;
+}
+
+.sobre h2 {
+  color: var(--cor1);
+  font-size:2.3rem ;
+  line-height: 40px;
+  margin: 40px;
+}
+
+.sobre h2 span {
+  color: var(--cor3);
+}
+
+.btn-social {
+  margin-top: 25px;
+}
+
+.btn-social a {
+  padding: 10px;
+}
+
+.btn-social i {
+  font-size: 30px;
+}
+
+
+
+
+/* ESTILO FALA COMIGO */
+section.fala-comigo {
+  padding: 80px 11%;
+}
+
+section.fala-comigo h2 {
+  margin-top: 15px;
+}
+
+form {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 25px;
+}
+
+input, textarea {
+  background-color: #46704d5b;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 15px;
+  outline: none; 
+  resize: none;
+}
+
+.btn-enviar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-enviar > button {
+  background-color: var(--cor2);
+  color: var(--cor1);
+  width: 120px;
+  transition: 0.2s;
+}
+
+.btn-enviar button:hover {
+  background-color: #2f2f2f83;
+}
+
+
+
+
+/* ESTILO RODAPÉ */
+footer {
+  padding:40px 11%
+}
+
+footer .flex {
+ justify-content: space-between;
+ align-items: center;
+}
+
+footer .btn-social button i {
+  font-size: 20px;
+}
+
+footer .btn-social button {
+  padding: 4px 20px;
+}
+
+.line-footer {
+  padding: 20px 0;
+}
+
+.logo2 {
+  margin-bottom: -25px;
+}
+
+.borda {
+  border-top: 3px solid #db8a6c;
+}
+
+.line-footer > i {
+  font-size: 22px;
+  color: #46704d;
+}
+
+.line-footer a {
+  color: #2f2f2f;
+  text-decoration: none;
+  padding: 0 8px;
 }
