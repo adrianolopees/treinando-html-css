@@ -41,7 +41,7 @@ h2 span {
   display: flex;
 }
 
-button {
+ button {
   display: inline-block;
   font-size: 20px;
   padding: 5px 25px;
@@ -99,7 +99,6 @@ header .menu-desktop a {
 
 /* ESTILO TOPO DO SITE */
 section.topo-site {
-  
   background-color: var(--cor2);
   padding: 80px 11% ;
  

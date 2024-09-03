@@ -1,0 +1,57 @@
+/*  STYLE MOBILE VERSION  */
+
+
+@media screen and (max-width: 1100px ) {
+
+  /* CONFIG GERAIS*/
+  .flex {
+    flex-direction: column-reverse;
+  }
+
+  img {
+    width: 100%;
+  }
+
+ 
+
+
+  /* CONFIG CABEÇALHO */
+  nav.menu-desktop {
+    display: none;
+  }
+
+  header  .btn-contato a button {
+    display: none;
+  }
+
+
+  /* CONFIG TOPO DO SITE */
+  section.topo-site {
+    padding: 40px 11%;
+  }
+
+  section.topo-site .flex {
+    gap: 60px;
+  }
+
+  .txt-topo h1 {
+    font-size: 2.3rem;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  .btn-escutar {
+    text-align: center;
+  }
+
+  /* MINHAS EXPERIÊNCIAS */
+  section.experiencias {
+    padding:30px 5%;
+  }
+
+  section.experiencias .flex {
+    gap: 50px;
+  }
+
+}
+
