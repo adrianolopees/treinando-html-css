@@ -93,7 +93,9 @@ header .menu-desktop a {
   transform: scale(1.05);
 }
 
-
+.menu-mobile {
+  display: none;
+}
 
 
 

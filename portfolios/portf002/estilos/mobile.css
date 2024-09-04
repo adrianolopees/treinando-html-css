@@ -1,8 +1,6 @@
 /*  STYLE MOBILE VERSION  */
 
-
-@media screen and (max-width: 1100px ) {
-
+@media screen and (max-width: 1100px) {
   /* CONFIG GERAIS*/
   .flex {
     flex-direction: column-reverse;
@@ -12,16 +10,51 @@
     width: 100%;
   }
 
-
   /* CONFIG CABEÇALHO */
   nav.menu-desktop {
     display: none;
   }
 
-  header  .btn-contato a button {
+  header .btn-contato a button {
+    display: none;
+  }
+  
+  .menu-mobile {
     display: none;
   }
 
+  .menu-mobile li a {
+    display: block;
+    width: 100vw;
+    background-color: var(--cor2);
+    text-align: center;
+  }
+
+  .menu-mobile a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: var(--cor1);
+  }
+  .menu-mobile a:hover {
+    background-color: #db8a6c98;
+    color: var(--cor2);
+  }
+
+  span#burguer {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.57);
+    width: 100vw;
+    text-align: center;
+    padding: 7px;
+    font-size: 4em;
+    cursor: pointer;
+  }
+
+  span#burguer:hover {
+    background-color: #db8a6c98;
+    color: var(--cor2);
+  }
 
   /* CONFIG TOPO DO SITE */
   section.topo-site {
@@ -37,19 +70,17 @@
     line-height: 40px;
     text-align: center;
   }
-  
+
   .btn-escutar {
     text-align: center;
   }
 
   /* MINHAS EXPERIÊNCIAS */
   section.experiencias {
-    padding:30px 5%;
+    padding: 30px 5%;
   }
 
   section.experiencias .flex {
     gap: 50px;
   }
-
 }
-
