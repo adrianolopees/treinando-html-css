@@ -18,12 +18,11 @@ header {
 .logo {
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding: .5em 0;
 }
 
 .menu-mobile {
   display: none;
-  background-color: #fffef7;;
 }
 
 .menu-mobile ul {
@@ -34,22 +33,27 @@ header {
 .menu-mobile ul li a {
   display: block;
   width: 100vw;
-  font-size: 1.5rem;
+  font: 500 1.5rem "Baskervville SC", serif;;
+  line-height: 3rem;
+  letter-spacing: .6rem;
   text-decoration: none;
   color: #000;
+  transition: .2s;
 }
 
 .menu-mobile ul li a:hover {
-  background-color: #cac9c3;
+  background-color: #e4e4de;
+  transform: scale(1.02);
 }
 
 i#burguer {
-  font-size: 3rem;
+  font-size: 3.4rem;
   display: block;
   text-align: center;
+  transition: .2s;
 }
 
 i#burguer:hover {
-  background-color: #cac9c3;
+  background-color: #e4e4de;
   cursor: pointer;
 }
