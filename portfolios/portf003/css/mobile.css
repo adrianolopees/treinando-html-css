@@ -6,11 +6,12 @@
 }
 
 body {
-  background-color: #2f2f2f;;
+  background-color: #2f2f2f;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/* ESTILO NAVEGATION */
+/* ESTILO MENU */
 header {
   background-color: #fffef7;
 }
@@ -56,4 +57,32 @@ i#burguer {
 i#burguer:hover {
   background-color: #e4e4de;
   cursor: pointer;
+}
+
+
+/* ESTILO TOPO DO SITE */
+.interface {
+  margin: 0 8%;
+  max-width: 1280px;
+}
+
+section.topo-site {
+  padding: 20px auto;
+}
+
+.img-topo img {
+  width: 100%;
+}
+
+.txt-topo h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.txt-topo p {
+  color: #fff;
+  font-size: 1.4rem;
+  text-indent: 20px;
 }
