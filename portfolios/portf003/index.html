@@ -18,9 +18,10 @@
 </head>
 <header>
   <div class="logo">
-    <img src="img/logo-footer.png" alt="logo">
+    <img src="img/logomera.png" alt="logo" height="50px">
+    <i id="burguer" class="bi bi-list" onclick="clickMenu()"></i>
   </div>
-  <i id="burguer" class="bi bi-list" onclick="clickMenu()"></i>
+  
   <nav id="menu" class="menu-mobile">
     <ul>
       <li><a href="#"><i class="bi bi-cassette"></i>Músicas</a></li>
@@ -30,14 +31,16 @@
     </ul>
   </nav><!--menu-mobile-->
 </header>  
+
 <main>
+
 <section class="topo-site">
   <div class="interface">
       <div class="img-topo">
         <img src="img/image.png" alt="imgtopo">
       </div><!--img-topo-->
       <div class="txt-topo">
-        <h1>TRANSFORMANDO EMOÇÕES EM MELODIAS<span>.</span></h1>
+        <h1 class="titulo">TRANSFORMANDO EMOÇÕES EM MELODIAS<span>.</span></h1>
         <p>A música é uma arte que transcende palavras, uma forma de comunicação universal que toca o coração e a alma. Ela é uma expressão de quem somos e do que sentimos, espero que aqui eu possa mostrar um pouco do que há em meu coração pra vocês!</p>
       </div><!--txt-topo-->
       <div class="btn-escute">
@@ -85,7 +88,48 @@
 
   </div><!--interface-->
 </section><!--sobre-->
+
+<section class="fala-cmg">
+  <div class="interface">
+    <h2>FALA <span>COMIGO.</span></h2>
+    <form action="cadastro.php">
+      <input type="text" placeholder="Nome Completo:"required>
+      <input type="text" placeholder="Email:"required>
+      <input type="text" placeholder="DDD + CELULAR:"required>
+      <textarea  placeholder="Envie sua mensagem:" required ></textarea>
+    </form>
+  <div class="enviar">
+    <button type="submit">Enviar</button>
+  </div>
+  </div><!--interface-->
+</section><!--fala-cmg-->
+
 </main>
+
+<footer>
+  <div class="interface">
+    <div class="line-footer">
+      <div class="logo">
+        <img src="img/logomera.png" alt="logo" height="50px">
+      </div>
+
+      <div class="btn-social">
+        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+        <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+      </div><!--btn-social-->
+
+      <div class="line-borda">
+      </div><!--line-borda-->
+      <p>
+        <i class="bi bi-envelope-plus"></i>
+        <a href="mailto:adrianoklopes13@gmail.com">adrianoklopes13@gmail.com</a>
+      </p>
+      
+      
+    </div>
+  </div><!--interface-->
+</footer>
 <script src="js/menu.js"></script>
 </body>
 </html>
