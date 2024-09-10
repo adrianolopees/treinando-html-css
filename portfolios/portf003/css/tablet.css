@@ -1,0 +1,131 @@
+@media screen and (min-width: 500px) and (max-width: 1020px) {
+  /* ESTILOS GERAIS */
+  .interface {
+    max-width: 1019px;
+    padding: 40px 11%;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+    margin-top: 2.5rem;
+  }
+
+  button {
+    padding: 2rem;
+    font-size: 1.8rem;
+  }
+
+  /* ESTILO MENU */
+  .logo {
+    padding: 0 2rem;
+    justify-content: space-between;
+  }
+  .menu-mobile ul {
+    margin: 0 25%;
+    margin-bottom: 1.3rem;
+  }
+
+  .menu-mobile ul li a {
+    font: 400 2rem "Poppins", serif;
+    letter-spacing: 2rem;
+  }
+
+  .menu-mobile ul i {
+    font-size: 2rem;
+  }
+
+  /* ESTILO TOPO DO SITE */
+  .img-topo img {
+    width: 100%;
+  }
+
+  .txt-topo h1 {
+    font-size: 4rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+  }
+
+  .txt-topo p {
+    font-size: 2rem;
+    text-indent: 0rem;
+  }
+
+  /* ESTILO EXPERIÊNCIAS */
+  .exp1 {
+    gap: 3rem;
+    margin-bottom: 40px;
+  }
+
+  .experiencias p {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .experiencias .exp {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+
+  .exp h4 i {
+    font-size: 4rem;
+    padding-right: 2rem;
+  }
+
+  /* ESTILO SOBRE */
+  .txt-sobre p {
+    font-size: 2rem;
+    text-indent: 0;
+  }
+
+  .btn-social {
+    margin-bottom: 3rem;
+  }
+  .btn-social i {
+    font-size: 3rem;
+  }
+
+  .btn-social button {
+    margin: 0 2rem;
+  }
+
+  .img-sobre img {
+    width: 100%;
+  }
+
+  /* ESTILO FORMULÁRIO */
+
+  form {
+    max-width: 600px;
+    gap: 40px;
+  }
+
+  form input {
+    padding: 1.5rem;
+  }
+
+  .enviar {
+    margin-top: 35px;
+  }
+
+  /* ESTILO DO FOOTER */
+
+  footer .line-borda {
+    border: 3px solid #2f2f2f;
+  }
+
+  .line-footer p a {
+    font-size: 2rem;
+  }
+
+  .line-footer i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+
+  .line-footer .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
