@@ -1,0 +1,19 @@
+@media screen and (min-width: 1024px) {
+  /* ESTILO MENU */
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  i#burguer {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  header > .inter {
+    padding: 20px 4%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}

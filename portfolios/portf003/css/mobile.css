@@ -12,11 +12,13 @@
 body {
   background-color: #fffef7;
   font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
 .interface {
-  max-width: 500px;
+  max-width: 767px;
   padding: 30px 8%;
+  margin: 0 auto;
 }
 
 h2 {
@@ -222,7 +224,7 @@ section.fala-cmg {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.089);
 }
 form {
-  max-width: 500px;
+  max-width: 767px;
   display: flex;
   flex-flow: column nowrap;
   gap: 30px;
