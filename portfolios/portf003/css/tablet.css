@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 500px) and (max-width: 1020px) {
   /* ESTILOS GERAIS */
   .interface {
     max-width: 1019px;
@@ -81,15 +81,13 @@
 
   .btn-social {
     margin-bottom: 3rem;
-   
   }
   .btn-social i {
-    font-size: 2rem;
-    
+    font-size: 3rem;
   }
 
   .btn-social button {
-    padding: 1rem;
+    margin: 0 2rem;
   }
 
   .img-sobre img {
