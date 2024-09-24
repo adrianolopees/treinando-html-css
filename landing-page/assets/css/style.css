@@ -79,3 +79,76 @@
 .gallery-img img:hover {
   transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
+
+.contact-form {
+  grid-column: span 2;
+}
+
+.contact-form .form-grid {
+  border: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--gap);
+}
+
+.form-grid legend {
+  margin-bottom: 3rem;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.form-group {
+  flex: 1 1 320px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea{
+  border: none;
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.205);
+  padding: 1.5rem 2rem;
+  width: 100%;
+  font-size: 2rem;
+  resize: none;
+  
+}
+
+.form-group button {
+  border: none;
+  background-color: #6C63FF;
+  color: white;
+  border-radius: .5rem;
+  padding: 1.5rem 2rem;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+  background-color: #6b63ffa4;
+}
+
+.rodape {
+  position: relative;
+  padding-bottom: 0;
+}
+
+.footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 3rem;
+}
+
+.footer span {
+  color: red;
+}
+.rodape > .main-bg {
+  margin-bottom: -20px;
+}
