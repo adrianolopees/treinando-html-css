@@ -7,7 +7,8 @@
   min-height: 100vh;
 }
 
-.intro-text-content, .intro-img {
+.intro-text-content,
+.intro-img {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -25,7 +26,7 @@
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  min-height:100vh;
+  min-height: 100vh;
 }
 
 .grid-one-content {
@@ -43,7 +44,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap:var(--gap);
+  gap: var(--gap);
   counter-reset: grid-counter;
 }
 
@@ -107,22 +108,21 @@
 }
 
 .form-group input,
-.form-group textarea{
+.form-group textarea {
   border: none;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: rgba(0, 0, 0, 0.205);
   padding: 1.5rem 2rem;
   width: 100%;
   font-size: 2rem;
   resize: none;
-  
 }
 
 .form-group button {
   border: none;
-  background-color: #6C63FF;
+  background-color: #6c63ff;
   color: white;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 1.5rem 2rem;
   font-size: 3rem;
   cursor: pointer;
@@ -139,7 +139,7 @@
 }
 
 .footer {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -151,4 +151,24 @@
 }
 .rodape > .main-bg {
   margin-bottom: -20px;
+}
+
+@media (max-width: 800px) {
+  .intro-content,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .gallery-img img {
+    width: 100%;
+  }
+
+  .form-button {
+    text-align: center;
+  }
 }
