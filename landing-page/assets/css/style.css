@@ -189,6 +189,14 @@
     width: 100%;
   }
 
+  .contact > .intro-content {
+    display: block;
+  }
+
+  .intro-img img {
+    margin-bottom: 6rem;
+  }
+ 
   .form-button {
     text-align: center;
   }
@@ -206,6 +214,7 @@
   .menu-content {
     height: 100vh;
   }
+
   .menu-content > h1 {
     font-size: 4rem;
   }
@@ -249,6 +258,7 @@
   .close-menu:checked~.menu {
     display: block;
   }
+
   .close-menu:checked~.close-menu-label::after {
     content: '×';
   }
