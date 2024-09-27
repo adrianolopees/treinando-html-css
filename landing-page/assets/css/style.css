@@ -156,6 +156,24 @@
   display: none;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #000;
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 800;
+  transform: rotate(-90deg);
+  border: .1rem solid #fff;
+
+}
+
 @media (max-width: 800px) {
   .intro-content,
   .grid {
@@ -188,9 +206,19 @@
   .menu-content {
     height: 100vh;
   }
+  .menu-content > h1 {
+    font-size: 4rem;
+  }
 
   .menu {
     display: none;
+    background-color: #ffffffee;
+  }
+
+  .menu ul li a {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
   }
 
   .close-menu {
