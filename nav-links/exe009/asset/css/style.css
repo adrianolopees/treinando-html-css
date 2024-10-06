@@ -28,12 +28,12 @@ a {
 
 .menu_content {
   margin: 0 auto;
-  padding: 0 18%;
+  padding: 0 15%;
 }
 
 .page_content {
   margin: 0 auto;
-  padding: 0 18%;
+  padding: 0 15%;
   min-height: 100vh;
 }
 
@@ -78,13 +78,17 @@ a {
 /* ESTILO HOME */
 
 .home {
-  display: flex;
-  align-items: center;
-  gap: 8rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+ gap: 10rem;
+}
+
+.txt_home {
+ margin-top: 8rem;
 }
 
 .home h1 {
-  color: #F2F2F2;
+  color: #383838;
   font-size: 3rem;
   margin-bottom: 2rem;
   margin-top: 4rem;
@@ -92,12 +96,24 @@ a {
 }
 
 .home p {
-  color: #F2F2F2;
+  color: #6D6D6D;
   font-size: 1.3rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
 }
 
-.img_home img {
-  margin-top: 6rem;
-  
+.btn_home button {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 20rem;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: all 300ms ease-in-out;
+}
+
+.btn_home button:hover{
+  transform: scale(1.1);
 }
