@@ -1,5 +1,4 @@
-/* ESTILOS GERAIS */
-
+/* ESTILOS GLOBAIS */
 * {
   margin: 0;
   padding: 0;
@@ -34,8 +33,9 @@ h1 {
   font-size: 1.3rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.144);
 }
+/* FIM GLOBAIS */
 
-
+/* ESTILOS GERAIS */
 .btn {
   width: 10rem;
   height: 3rem;
@@ -63,10 +63,11 @@ h1 {
   grid-template-columns: 1fr 1fr ;
   gap: 10rem;
  }
+
 /* FIM ESTILOS GERAIS */
 
 
-/* ESTILOS MENU */
+/* ESTILO MENU */
 .menu {
   position: fixed;
 }
@@ -148,6 +149,17 @@ h1 {
  margin:6rem auto;
 }
 
-
+.txt_about {
+  padding: 5rem 0;
+}
 /*FIM ESTILOS ABOUT*/
+
+/* ESTILO GALLERY */
+
+.gallery_page {
+  text-align: center;
+}
+
+
+/* FIM GALLERY */
 
