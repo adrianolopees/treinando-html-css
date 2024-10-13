@@ -28,6 +28,13 @@ h1 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.116);
 }
 
+h2 {
+  color: #383838;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.116);
+}
   p {
   color: #6D6D6D;
   font-size: 1.3rem;
@@ -64,8 +71,12 @@ h1 {
   gap: 10rem;
  }
 
+ .page_content {
+  margin: 0 auto;
+  padding: 0 15%;
+  min-height: 100vh;
+}
 /* FIM ESTILOS GERAIS */
-
 
 /* ESTILO MENU */
 .menu {
@@ -75,12 +86,6 @@ h1 {
 .menu_content {
   margin: 0 auto;
   padding: 0 15%;
-}
-
-.page_content {
-  margin: 0 auto;
-  padding: 0 15%;
-  min-height: 100vh;
 }
 
 .cabecalho {
@@ -155,28 +160,12 @@ h1 {
 /*FIM ESTILOS ABOUT*/
 
 /* ESTILO GALLERY */
-.img_gallery {
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr ;
-  gap: 3rem;
-}
 
-.img_gallery img {
-  transition: all 300ms ease-in-out;
-}
 
-.img_gallery img:hover{
-  cursor: pointer;
-  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
-  
-}
-.gallery_page {
+h2 {
   text-align: center;
+  padding: 7rem 0 4rem 0;
 }
-.gallery_page > h1{
-  padding-top: 8rem;
-}
-
 
 /* FIM GALLERY */
 
