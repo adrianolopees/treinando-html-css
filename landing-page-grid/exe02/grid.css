@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#container {
+  padding: 1rem 2%;
+  display: grid;
+  grid-template-areas: 
+  'header header header'
+  'aside article section'
+  'footer footer footer'
+  ;
+  gap: 10px;
+  grid-auto-rows: 5rem 37rem 3rem; /* .item {height: 200px;} // MESMA COISA*/
+}
+
+header {
+  grid-area: header;
+  background-color: blueviolet;
+}
+aside {
+  grid-area: aside;
+  background-color: brown;
+}
+article {
+  grid-area: article;
+  background-color: aquamarine;
+}
+section {
+  grid-area: section;
+  background-color: cadetblue;
+}
+footer {
+  grid-area: footer;
+  background-color: yellowgreen;
+}
